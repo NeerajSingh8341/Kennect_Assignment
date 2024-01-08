@@ -1,7 +1,9 @@
 package com.Kennect.gui.web.pageobjects;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -19,7 +21,7 @@ public class Logoutpage  extends Utilities{
 
 	
 	
-	@FindBy(xpath = "//div[text()='T']")
+	@FindBy(xpath = "//span[@class='MuiIconButton-label']/div[text()]")
 	private WebElement usertitle;
 	
 	@FindBy(xpath = "//span[text()='Sign out of Lab']")
@@ -27,9 +29,10 @@ public class Logoutpage  extends Utilities{
 	
 	
 	public void logoutmethod() {
+		waitFor(2000);
+		JavascriptExecutor j = (JavascriptExecutor) driver;
+		j.executeScript("arguments[0].click();", usertitle);	
 		waitFor(1000);
-		usertitle.click();
-		waitFor(1000);
-		Signout.click();
+		j.executeScript("arguments[0].click();", Signout);
 	}
 }

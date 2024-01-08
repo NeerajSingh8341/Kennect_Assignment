@@ -1,7 +1,6 @@
 package KennectTestFlows;
 
 import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertTrue;
 
 import java.util.Map;
 
@@ -12,7 +11,6 @@ import com.Kennect.gui.web.pageUtils.framework;
 import com.Kennect.gui.web.pageobjects.HomePage;
 import com.Kennect.gui.web.pageobjects.LandingPage;
 import com.Kennect.gui.web.pageobjects.Logoutpage;
-import com.Kennect.gui.web.pageobjects.PatientsPage;
 import com.aventstack.extentreports.Status;
 @Listeners(KennectTestFlows.Listners.class)
 
@@ -38,7 +36,16 @@ public class TestRunner extends BaseClass {
 	String DoctorCommision = rowData.get("Doctor Commision");
 	String testequipment = rowData.get("test equipment");
 	String testequipmentQuantity = rowData.get("test equipment Quantity");
+//	
+	@Test(priority = 2)
+	public void jenkins1stJob() {
+		System.out.println("Test 1 started");
+		System.out.println(driver.getTitle());
+		System.out.println("-------------Jenkins Job Run ------------------------");
+		System.out.println("Test 1 finished");//for jenkins
 
+	}
+/*
 	@Test(priority = 3)
 	public void endtoend() {
 		framework.extentTest = framework.extent.createTest("Scenario 4th");
@@ -79,9 +86,10 @@ public class TestRunner extends BaseClass {
 
 
 	}
-
+*/
 	@Test(priority = 1)
 	public void Home_PageValidation() {
+		System.out.println("Test 2");
 		framework.extentTest = framework.extent.createTest("Scenario 2nd");
 		framework.test =framework.extentTest.createNode("Login Test");
 		LandingPage p1 = new LandingPage(driver);
@@ -94,9 +102,12 @@ public class TestRunner extends BaseClass {
 		framework.test.log(Status.PASS, "Users are able to see ToDoList and able to access the Cost Calculator for blood tests");
 
 		framework.extent.flush();
+		System.out.println("Test 2 finished");//for jenkins
+		Logoutpage signout=new Logoutpage(driver);
+		signout.logoutmethod();
 
 	}
-
+/*
 	@Test(priority = 2)
 	public void Cost_Calculator_for_Blood_TestValidation() {
 		framework.extentTest = framework.extent.createTest("Scenario 3rd");
@@ -121,18 +132,24 @@ public class TestRunner extends BaseClass {
 		
 
 	}
-
+*/
+	
 	@Test(priority = 0)
-	public void loginpageValidation() {
+	public void loginpageValidation() throws Exception {
+		Thread.sleep(3000);
 		framework.extentTest = framework.extent.createTest("Scenario 1st");
 		framework.test =framework.extentTest.createNode("Login Test");
 		LandingPage p1 = new LandingPage(driver);
 		p1.LandingpageAction(UserId, Password);
 		framework.test.log(Status.PASS, " User Logged in successfully ");
 		
-		
+		Thread.sleep(3000);
+		Logoutpage signout=new Logoutpage(driver);
+		signout.logoutmethod();
+
 
 	}
+	/*
 	@Test(priority = 4)
 	public void loginpageValidationNegtiveTest() {
 		framework.extentTest = framework.extent.createTest("Scenario 1st");
@@ -147,6 +164,6 @@ public class TestRunner extends BaseClass {
 //		assertTrue(false);
 
 	}
-	
+	*/
 
 }

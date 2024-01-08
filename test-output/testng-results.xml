@@ -1,117 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-24T19:42:52 IST" name="Default suite" finished-at="2023-11-24T19:45:22 IST" duration-ms="149693">
+  <suite started-at="2024-01-07T23:01:08 IST" name="Default suite" finished-at="2024-01-07T23:01:56 IST" duration-ms="47804">
     <groups>
     </groups>
-    <test started-at="2023-11-24T19:42:52 IST" name="Default test" finished-at="2023-11-24T19:45:22 IST" duration-ms="149693">
+    <test started-at="2024-01-07T23:01:08 IST" name="Default test" finished-at="2024-01-07T23:01:56 IST" duration-ms="47804">
       <class name="KennectTestFlows.TestRunner">
-        <test-method is-config="true" signature="relatedtoReports()[pri:0, instance:KennectTestFlows.TestRunner@4189d70b]" started-at="2023-11-24T19:42:52 IST" name="relatedtoReports" finished-at="2023-11-24T19:42:52 IST" duration-ms="211" status="PASS">
+        <test-method is-config="true" signature="relatedtoReports()[pri:0, instance:KennectTestFlows.TestRunner@3fa2213]" started-at="2024-01-07T23:01:08 IST" name="relatedtoReports" finished-at="2024-01-07T23:01:08 IST" duration-ms="282" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- relatedtoReports -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:KennectTestFlows.TestRunner@4189d70b]" started-at="2023-11-24T19:42:52 IST" name="setup" finished-at="2023-11-24T19:42:56 IST" duration-ms="3447" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:KennectTestFlows.TestRunner@3fa2213]" started-at="2024-01-07T23:01:08 IST" name="setup" finished-at="2024-01-07T23:01:19 IST" duration-ms="11257" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginpageValidation()[pri:0, instance:KennectTestFlows.TestRunner@4189d70b]" started-at="2023-11-24T19:42:56 IST" name="loginpageValidation" finished-at="2023-11-24T19:42:58 IST" duration-ms="2518" status="PASS">
+        <test-method signature="loginpageValidation()[pri:0, instance:KennectTestFlows.TestRunner@3fa2213]" started-at="2024-01-07T23:01:19 IST" name="loginpageValidation" finished-at="2024-01-07T23:01:31 IST" duration-ms="11759" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginpageValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:KennectTestFlows.TestRunner@4189d70b]" started-at="2023-11-24T19:43:01 IST" name="tearDown" finished-at="2023-11-24T19:43:01 IST" duration-ms="379" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:KennectTestFlows.TestRunner@3fa2213]" started-at="2024-01-07T23:01:33 IST" name="tearDown" finished-at="2024-01-07T23:01:33 IST" duration-ms="349" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:KennectTestFlows.TestRunner@4189d70b]" started-at="2023-11-24T19:43:01 IST" name="setup" finished-at="2023-11-24T19:43:03 IST" duration-ms="2000" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:KennectTestFlows.TestRunner@3fa2213]" started-at="2024-01-07T23:01:33 IST" name="setup" finished-at="2024-01-07T23:01:39 IST" duration-ms="6067" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Home_PageValidation()[pri:1, instance:KennectTestFlows.TestRunner@4189d70b]" started-at="2023-11-24T19:43:03 IST" name="Home_PageValidation" finished-at="2023-11-24T19:43:12 IST" duration-ms="8534" status="PASS">
+        <test-method signature="Home_PageValidation()[pri:1, instance:KennectTestFlows.TestRunner@3fa2213]" started-at="2024-01-07T23:01:39 IST" name="Home_PageValidation" finished-at="2024-01-07T23:01:51 IST" duration-ms="12000" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Home_PageValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:KennectTestFlows.TestRunner@4189d70b]" started-at="2023-11-24T19:43:14 IST" name="tearDown" finished-at="2023-11-24T19:43:14 IST" duration-ms="206" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:KennectTestFlows.TestRunner@3fa2213]" started-at="2024-01-07T23:01:52 IST" name="tearDown" finished-at="2024-01-07T23:01:52 IST" duration-ms="346" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:KennectTestFlows.TestRunner@4189d70b]" started-at="2023-11-24T19:43:14 IST" name="setup" finished-at="2023-11-24T19:43:16 IST" duration-ms="2014" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:KennectTestFlows.TestRunner@3fa2213]" started-at="2024-01-07T23:01:52 IST" name="setup" finished-at="2024-01-07T23:01:55 IST" duration-ms="2317" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Cost_Calculator_for_Blood_TestValidation()[pri:2, instance:KennectTestFlows.TestRunner@4189d70b]" started-at="2023-11-24T19:43:16 IST" name="Cost_Calculator_for_Blood_TestValidation" finished-at="2023-11-24T19:43:37 IST" duration-ms="20654" status="PASS">
+        <test-method signature="jenkins1stJob()[pri:2, instance:KennectTestFlows.TestRunner@3fa2213]" started-at="2024-01-07T23:01:55 IST" name="jenkins1stJob" finished-at="2024-01-07T23:01:55 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Cost_Calculator_for_Blood_TestValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:KennectTestFlows.TestRunner@4189d70b]" started-at="2023-11-24T19:43:39 IST" name="tearDown" finished-at="2023-11-24T19:43:39 IST" duration-ms="254" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:KennectTestFlows.TestRunner@4189d70b]" started-at="2023-11-24T19:43:39 IST" name="setup" finished-at="2023-11-24T19:43:42 IST" duration-ms="2205" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="endtoend()[pri:3, instance:KennectTestFlows.TestRunner@4189d70b]" started-at="2023-11-24T19:43:42 IST" name="endtoend" finished-at="2023-11-24T19:45:11 IST" duration-ms="89560" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endtoend -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:KennectTestFlows.TestRunner@4189d70b]" started-at="2023-11-24T19:45:13 IST" name="tearDown" finished-at="2023-11-24T19:45:14 IST" duration-ms="246" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:KennectTestFlows.TestRunner@4189d70b]" started-at="2023-11-24T19:45:14 IST" name="setup" finished-at="2023-11-24T19:45:16 IST" duration-ms="2122" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="loginpageValidationNegtiveTest()[pri:4, instance:KennectTestFlows.TestRunner@4189d70b]" started-at="2023-11-24T19:45:16 IST" name="loginpageValidationNegtiveTest" finished-at="2023-11-24T19:45:19 IST" duration-ms="3378" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [The password is invalid.] but found [The password is invalid or the user does not have a password.]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [The password is invalid.] but found [The password is invalid or the user does not have a password.]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at org.testng.Assert.assertEquals(Assert.java:666)
-at KennectTestFlows.TestRunner.loginpageValidationNegtiveTest(TestRunner.java:142)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginpageValidationNegtiveTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:KennectTestFlows.TestRunner@4189d70b]" started-at="2023-11-24T19:45:22 IST" name="tearDown" finished-at="2023-11-24T19:45:22 IST" duration-ms="123" status="PASS">
+        </test-method> <!-- jenkins1stJob -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:KennectTestFlows.TestRunner@3fa2213]" started-at="2024-01-07T23:01:56 IST" name="tearDown" finished-at="2024-01-07T23:01:56 IST" duration-ms="228" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -7,8 +7,8 @@
         <methods>
           <include name="relatedtoReports"/>
           <include name="tearDown"/>
-          <include name="loginpageValidationNegtiveTest"/>
           <include name="setup"/>
+          <include name="loginpageValidationNegtiveTest"/>
         </methods>
       </class> <!-- KennectTestFlows.TestRunner -->
     </classes>

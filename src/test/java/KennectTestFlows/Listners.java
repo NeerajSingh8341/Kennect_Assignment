@@ -25,13 +25,21 @@ public class Listners extends BaseClass implements ITestListener {
 	@Override
 	public void onTestStart(ITestResult result) {
 		System.out.println("------------------------------------Test Started---------------------------");
+		
 	}
 
 	@Override
 	public void onTestSuccess(ITestResult result) {
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		framework.extentTest = framework.extent.createTest("Test Success");
 		framework.test =framework.extentTest.createNode("To check user User Logged out successfully  ");
-		Logoutpage signout=new Logoutpage(driver);
-		signout.logoutmethod();
+//		Logoutpage signout=new Logoutpage(driver);
+////		signout.logoutmethod();
 		framework.test.log(Status.PASS, " User Logged out  successfully ");
 		framework.extent.flush();
 		System.out.println("------------------------------------Test Passed---------------------------");
@@ -39,7 +47,10 @@ public class Listners extends BaseClass implements ITestListener {
 
 	@Override
 	public void onTestFailure(ITestResult result) {
-		framework.extentTest.log(Status.FAIL, result.getTestName());
+		framework.extentTest = framework.extent.createTest("Failed");
+		framework.test =framework.extentTest.createNode("Test Failed  ");
+
+		framework.test.log(Status.FAIL, result.getTestName());
 		
 		String Fname=getScreenshotname();
 
